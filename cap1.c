@@ -10,7 +10,7 @@ int main()
 	s[0]=s[0]-32;
 	for(ctr=0;ctr<len;ctr++)
 	{
-		if(isalpha(s[ctr]))
+		if(isalpha(s[ctr])|| s[ctr==' ')
 		{
 		if(s[ctr]==' ')
 		{
